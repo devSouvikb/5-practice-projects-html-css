@@ -31,3 +31,35 @@ body {
   position: relative;
   border: 10px solid var(--primary-color);
 }
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2.5vw;
+}
+
+img {
+  height: 20vw;
+  border-radius: 50%;
+}
+
+.header-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+header h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  font-family: "Playfair Display", serif;
+}
+
+header p {
+  font-size: 3rem;
+  font-weight: 500;
+}
