@@ -100,3 +100,21 @@ li {
   font-size: 1.6rem;
   line-height: 3.4rem;
 }
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4vw;
+}
+
+footer p {
+  font-size: 1.4rem;
+  margin-bottom: -1vw;
+}
+
+a {
+  color: var(--primary-color);
+  font-style: italic;
+  font-weight: 500;
+}
