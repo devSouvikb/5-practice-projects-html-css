@@ -9,7 +9,68 @@
 </head>
 
 <body>
+  <div class="container">
+    <form action="#" method="get">
+      <h1 class="title">Job Application <span>(Web)</span></h1>
+      <div class="form-container">
+        <div class="first-name">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Enter First Name...">
+        </div>
+        <div class="last-name">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Enter Last Name...">
+        </div>
+      </div>
 
+      <div class="form-container">
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email...">
+        </div>
+
+        <div class="job-role">
+          <label for="job-role">Job Roll</label>
+          <select id="job-role" name="job-role">
+            <option value="select-job-role">Select Job Role</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Fullstack Developer</option>
+          </select>
+        </div>
+
+      </div>
+
+      <label for="address">Address</label>
+      <textarea name="address" id="address" cols="50" rows="4" placeholder="Enter Address..."></textarea>
+
+      <div class="form-container">
+        <div class="city">
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" placeholder="Enter City...">
+        </div>
+        <div class="pin-code">
+          <label for="pin-code">Pincode</label>
+          <input type="number" name="pin-code" id="pin-code" placeholder="Enter Pincode...">
+        </div>
+      </div>
+
+      <div class="form-container">
+        <div class="date">
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date">
+        </div>
+        <div class="upload-cv">
+          <label for="upload-cv">Upload Your CV</label>
+          <input type="file" name="upload-cv" id="upload-cv">
+        </div>
+      </div>
+
+      <div class="btn">
+        <button type="submit">Apply</button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>
