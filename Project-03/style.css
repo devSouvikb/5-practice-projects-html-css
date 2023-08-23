@@ -65,3 +65,45 @@ aside ul li {
 aside ul li:hover {
   background-color: #cccccc;
 }
+
+/* main styles */
+main {
+  padding: 4vw;
+}
+
+.main-container {
+  margin-top: 4vw;
+}
+
+main h2 {
+  border-bottom: 1px solid #8d8d8d;
+  margin-bottom: 2vw;
+}
+
+p {
+  margin-bottom: 1.6vw;
+  line-height: 24px;
+  padding-left: 0.6vw;
+}
+
+main li {
+  margin-bottom: 0.8vw;
+  line-height: 24px;
+}
+
+main ul {
+  padding-left: 3vw;
+}
+
+.code {
+  background-color: #f2f2f2;
+  padding-top: 1.2vw;
+  margin-left: 0.6vw;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+pre {
+  font-size: 14px;
+  margin-left: -4vw;
+}
