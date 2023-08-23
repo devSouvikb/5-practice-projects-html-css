@@ -33,3 +33,35 @@ h2 {
   grid-template-columns: 15% 85%;
   position: relative;
 }
+
+/* aside styles */
+aside {
+  height: 100vh;
+  color: #101010;
+  border-right: 1px solid #8d8d8d;
+  position: sticky;
+  top: 0;
+}
+
+aside h1 {
+  padding: 0.6vw 1vw;
+  font-size: 1.8vw;
+  font-weight: 700;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  padding: 0.6vw 1vw;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border-bottom: 1px solid #8d8d8d;
+  line-height: 1.6vw;
+}
+
+aside ul li:hover {
+  background-color: #cccccc;
+}
