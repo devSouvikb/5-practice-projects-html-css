@@ -100,3 +100,37 @@ h1 {
 .hero-btn:hover {
   background-color: #ffcb82;
 }
+
+/* cards section */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+  padding: 50px 0;
+  border-bottom: 3px solid #999999;
+  font-size: 1.6rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 120px;
+  width: 380px;
+  padding: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px #1010101c;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.card-txt p {
+  color: #313131;
+}
