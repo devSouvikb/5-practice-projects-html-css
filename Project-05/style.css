@@ -201,3 +201,43 @@ h2 {
     opacity: 100%;
   }
 }
+
+/* footer */
+footer {
+  padding: 40px 150px;
+  font-size: 1.6rem;
+  background-color: #fff0db;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-txt-container {
+  display: flex;
+  gap: 150px;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px !important;
+  color: #949494 !important;
+}
+
+.footer-txt p {
+  color: #313131;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 4px 8px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  font-size: 2.8rem;
+  cursor: pointer;
+}
