@@ -22,3 +22,81 @@ body {
 button {
   font: inherit;
 }
+
+/* header */
+header {
+  height: 100svh;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+/* navbar */
+nav {
+  height: 100px;
+  width: 100%;
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px #1010101c;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.menue-icon {
+  font-size: 3.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* hero section */
+.hero {
+  height: calc(100svh - 100px);
+  padding: 0 150px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-container,
+.right-container {
+  width: 50%;
+}
+
+.label {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #149f39;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 7.2rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.hero-txt {
+  color: #313131;
+  line-height: 2.4rem;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  background-color: #ffc066;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #ffcb82;
+}
