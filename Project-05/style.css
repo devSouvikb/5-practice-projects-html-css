@@ -134,3 +134,70 @@ h3 {
 .card-txt p {
   color: #313131;
 }
+
+/* menu section */
+.menu {
+  padding: 100px 150px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 10px;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.img-box {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+  background-color: #22222248;
+  background-blend-mode: multiply;
+  z-index: 2;
+}
+
+.img-box p {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.img-box:hover p {
+  animation: txt-fade-in 0.4s ease-in-out forwards;
+}
+
+@keyframes txt-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
